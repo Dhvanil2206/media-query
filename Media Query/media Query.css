@@ -1,0 +1,42 @@
+@media screen and (max-width: 1000px) {
+  body {
+    background: lightcoral;
+  }
+  h1 {
+    color: white;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  nav ul {
+    display: none;
+  }
+  nav label {
+    display: block;
+  }
+
+  input[type="checkbox"] :checked + ul {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background: lightseagreen;
+  }
+  h1 {
+    color: hotpink;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  body {
+    background: lightskyblue;
+  }
+  h1 {
+    color: firebrick;
+    font-size: 20px;
+  }
+}

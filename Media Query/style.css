@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background: lightblue;
+}
+
+header {
+  height: 8vh;
+  background: tan;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+nav label {
+  display: none;
+}
+nav input {
+    display: none;
+}
